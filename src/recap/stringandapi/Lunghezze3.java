@@ -15,5 +15,6 @@ public class Lunghezze3 {
             string = scanner.nextLine();
         };
         System.out.println(lengthSum);
+        scanner.close();
     }
 }

@@ -41,5 +41,6 @@ public class DueListe2_5 {
         if(counterNumeriInComune>1){
             System.out.println("La somma dei numeri in comune alle due liste è :"+sommaNumeriInComune);
         }
+        scanner.close();
     }
 }

@@ -18,5 +18,6 @@ public class RubricaTelefonica7 {
         for (int i = 0; i < 5; i++) {
             System.out.print(nomi[i]+ " " + numeroTelefono[i] + "\n" );
         }
+        scanner.close();
     }
 }

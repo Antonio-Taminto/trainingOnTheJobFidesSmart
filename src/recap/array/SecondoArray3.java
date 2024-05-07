@@ -25,5 +25,6 @@ public class SecondoArray3 {
         for (int i = newArray.length-1; i >=0 ; i--) {
             System.out.println(newArray[i]);
         }
+        scanner.close();
     }
 }

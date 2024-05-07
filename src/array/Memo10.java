@@ -45,6 +45,7 @@ public class Memo10 {
                     System.out.println("errore selezione errata");
             }
         }
+        scanner.close();
     }
     private static void stampaDatePosizioni(int start, int end, String[] array){
         for (int i = start; i < end; i++) {

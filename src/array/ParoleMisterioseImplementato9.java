@@ -38,5 +38,6 @@ public class ParoleMisterioseImplementato9 {
                 }
             }
         }
+        scanner.close();
     }
 }

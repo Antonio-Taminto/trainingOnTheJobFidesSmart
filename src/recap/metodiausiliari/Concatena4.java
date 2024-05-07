@@ -10,6 +10,7 @@ public class Concatena4 {
             parole[i] = scanner.nextLine();
         }
         System.out.println(stringaConcatenata(parole));
+        scanner.close();
     }
     private static String stringaConcatenata(String[] array){
         StringBuilder stringBuilder = new StringBuilder();

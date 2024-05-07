@@ -10,6 +10,7 @@ public class Ripeti1 {
         string = scanner.nextLine();
         counter = scanner.nextInt();
         printNTimes(string,counter);
+        scanner.close();
     }
     private static void printNTimes(String stringa,int counter){
         if(counter<1){

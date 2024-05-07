@@ -14,5 +14,6 @@ public class SoloVocali2 {
             }
         }
         System.out.println(parolaSoloVocali);
+        scanner.close();
     }
 }

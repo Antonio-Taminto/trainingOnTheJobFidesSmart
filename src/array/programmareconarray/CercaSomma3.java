@@ -24,6 +24,7 @@ public class CercaSomma3 {
         }else {
             System.out.println("non ci sono due numeri con somma pari a 100!");
         }
+        scanner.close();
     }
 
 }

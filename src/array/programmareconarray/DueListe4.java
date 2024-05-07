@@ -18,5 +18,6 @@ public class DueListe4 {
         for (int i : array) {
             System.out.println(i);
         }
+        scanner.close();
     }
 }

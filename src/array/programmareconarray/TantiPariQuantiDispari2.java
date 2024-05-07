@@ -25,5 +25,6 @@ public class TantiPariQuantiDispari2 {
         }else {
             System.out.println("hai inserito più numeri pari");
         }
+        scanner.close();
     }
 }

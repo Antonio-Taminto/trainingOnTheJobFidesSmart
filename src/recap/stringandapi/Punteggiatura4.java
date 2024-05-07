@@ -20,5 +20,6 @@ public class Punteggiatura4 {
             }
         }
         System.out.println(counterPunteggiatura);
+        scanner.close();
     }
 }

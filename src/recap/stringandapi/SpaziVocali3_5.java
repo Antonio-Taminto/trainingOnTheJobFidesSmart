@@ -16,5 +16,6 @@ public class SpaziVocali3_5 {
             }
         }
         System.out.println(counter);
+        scanner.close();
     }
 }

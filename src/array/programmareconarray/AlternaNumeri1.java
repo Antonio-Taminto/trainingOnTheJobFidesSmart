@@ -18,6 +18,7 @@ public class AlternaNumeri1 {
         for (int i = 1; i < array.length; i+=2) {
             System.out.println(array[i]);
         }
+        scanner.close();
 
     }
 }

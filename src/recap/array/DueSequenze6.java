@@ -26,5 +26,6 @@ public class DueSequenze6 {
         } else {
             System.out.println("NO");
         }
+        scanner.close();
     }
 }

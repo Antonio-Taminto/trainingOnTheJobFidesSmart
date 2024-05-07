@@ -11,5 +11,6 @@ public class Contrario1 {
             stringBuilder.append(parolaDaInvertire.charAt(i));
         }
         System.out.println(stringBuilder);
+        scanner.close();
     }
 }

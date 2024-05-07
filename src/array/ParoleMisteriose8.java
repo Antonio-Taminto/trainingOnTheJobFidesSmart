@@ -24,5 +24,6 @@ public class ParoleMisteriose8 {
                 tentativi++;
             }
         }
+        scanner.close();
     }
 }
