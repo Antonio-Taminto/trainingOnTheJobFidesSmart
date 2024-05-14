@@ -13,6 +13,7 @@ public class QuesitoNumerico extends Quesito{
         System.out.println(getDomanda());
         System.out.println("qual è la tua risposta?");
         Integer risposta = scanner.nextInt();
+        scanner.close();
         if(risposta.equals(Integer.parseInt(getRisposta()))){
             System.out.println("Corretto!");
             return getPunteggio();

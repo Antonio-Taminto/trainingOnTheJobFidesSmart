@@ -41,6 +41,7 @@ public class Quesito {
         System.out.println(domanda);
         System.out.println("qual è la tua risposta?");
         String risposta = scanner.nextLine();
+        scanner.close();
         if(risposta.equals(this.risposta)){
             System.out.println("Corretto!");
             return punteggio;

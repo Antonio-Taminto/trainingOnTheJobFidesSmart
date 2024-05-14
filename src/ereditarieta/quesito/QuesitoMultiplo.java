@@ -14,6 +14,7 @@ public class QuesitoMultiplo extends QuesitoNumerico{
         System.out.println(getDomanda());
         System.out.println("qual è la tua risposta?");
         Integer risposta = scanner.nextInt();
+        scanner.close();
         if (risposta<1 || risposta>numeroDiRisposte){
             System.out.println("risposta non corretta");
             return 0;

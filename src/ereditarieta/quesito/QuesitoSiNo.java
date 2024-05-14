@@ -13,6 +13,7 @@ public class QuesitoSiNo extends Quesito{
         System.out.println(getDomanda());
         System.out.println("qual è la tua risposta?[si/no]");
         String risposta = scanner.nextLine();
+        scanner.close();
         if(risposta.equals(this.getRisposta())){
             System.out.println("Corretto!");
             return getPunteggio();
